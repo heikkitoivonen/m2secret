@@ -51,7 +51,7 @@ try:
     setup_args["zip_safe"] = True
     setup_args["entry_points"] = {
         "console_scripts": [
-            "caltrain = m2secret:main",
+            "m2secret = m2secret:main",
         ]
     }
 except ImportError:
