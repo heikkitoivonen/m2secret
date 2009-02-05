@@ -17,7 +17,7 @@
 
 setup_args = {
     "name": "m2secret",
-    "version": "0.1",
+    "version": "0.2",
     "platforms": ["any"],
     "description": "Encryption and decryption module and CLI utility",
     "long_description": """\
@@ -34,7 +34,7 @@ algorithm.""",
     "license": "Apache Software License",
     "py_modules": ["m2secret"],
     "classifiers": [
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
         "License :: OSI Approved :: Apache Software License",
@@ -54,6 +54,7 @@ try:
             "m2secret = m2secret:main",
         ]
     }
+    setup_args["install_requires"] = ["M2Crypto >= 0.16"]
 except ImportError:
     from distutils.core import setup
 
