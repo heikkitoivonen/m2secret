@@ -54,7 +54,7 @@ try:
             "m2secret = m2secret:main",
         ]
     }
-    setup_args["install_requires"] = ["M2Crypto >= 0.16"]
+    setup_args["install_requires"] = ["M2Crypto >= 0.18"]
 except ImportError:
     from distutils.core import setup
 
