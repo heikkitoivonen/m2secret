@@ -1,9 +1,9 @@
 CHANGES
 =======
 
-0.2
----
-- Added installation dependency to M2Crypto
+0.1.1 - 2009-02-12
+------------------
+- Added installation dependency to M2Crypto >= 0.18
 
 0.1 - 2009-02-55
 ----------------
