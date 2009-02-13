@@ -37,6 +37,7 @@ from M2Crypto import EVP
 
 
 version = '0.2'
+version_info = tuple([int(x) for x in version.split('.')])
 
 
 class SecretError(Exception):
