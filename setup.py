@@ -17,7 +17,7 @@
 
 setup_args = {
     "name": "m2secret",
-    "version": "0.1",
+    "version": "0.1.1",
     "platforms": ["any"],
     "description": "Encryption and decryption module and CLI utility",
     "long_description": """\
@@ -54,6 +54,7 @@ try:
             "m2secret = m2secret:main",
         ]
     }
+    setup_args["install_requires"] = ["M2Crypto >= 0.18"]
 except ImportError:
     from distutils.core import setup
 

@@ -36,7 +36,7 @@ from binascii import hexlify, unhexlify
 from M2Crypto import EVP
 
 
-version = '0.1'
+version = '0.1.1'
 
 
 class SecretError(Exception):
